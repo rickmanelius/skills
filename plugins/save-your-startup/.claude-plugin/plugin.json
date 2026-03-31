@@ -1,0 +1,13 @@
+{
+  "name": "save-your-startup",
+  "version": "1.0.0",
+  "description": "12 battle-tested founder skills from Save Your Startup by Rick Manelius",
+  "author": {
+    "name": "Rick Manelius",
+    "url": "https://github.com/rickmanelius"
+  },
+  "homepage": "https://github.com/rickmanelius/skills",
+  "repository": "https://github.com/rickmanelius/skills",
+  "license": "MIT",
+  "keywords": ["startup", "founder", "mentorship", "techstars", "skills"]
+}
