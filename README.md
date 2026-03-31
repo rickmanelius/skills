@@ -15,6 +15,8 @@ That's it — Claude Code will fetch the repo and register all 12 skills automat
 
 ## Skills
 
+This book stands on the shoulders of giants. You'll see well cited playbooks in the list below, which I've adapted for startups.
+
 | Skill | Command | When to use |
 |-------|---------|-------------|
 | **Paint Done** | `/sys:paint-done` | Define "done" before any work begins |
