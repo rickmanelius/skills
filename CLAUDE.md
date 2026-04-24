@@ -2,7 +2,7 @@
 
 ## What This Repo Is
 
-This repo (`rickmanelius/skills`) is a Claude Code marketplace containing the **save-your-startup** plugin — 12 AI-powered founder mentorship skills derived from the book **Save Your Startup** by Rick Manelius. It follows the playbook established by Sahil Lavingia's [slavingia/skills](https://github.com/slavingia/skills).
+This repo (`rickmanelius/skills`) is a Claude Code marketplace containing the **save-your-startup** plugin — 12 AI-powered founder mentorship skills derived from the book **Save Your Startup** by Rick Manelius, plus 1 companion decision-making skill (`/sys:prioritize`). It follows the playbook established by Sahil Lavingia's [slavingia/skills](https://github.com/slavingia/skills).
 
 ## Installation
 
@@ -43,6 +43,12 @@ Skills should reflect Rick's **Techstars mentor voice**:
 11. `/sys:break-bottleneck` — Throughput optimization
 12. `/sys:high-medium-low` — Scope right-sizing
 
+## Companion Skills
+
+These live in the same plugin but are **not** derived from the book. Same `sys:` prefix and Techstars mentor voice; different lineage.
+
+- `/sys:prioritize` — Generic prioritization matrix. Rank a list across 2-4 dimensions with coarse 1-5 scoring. Inspired by RICE/ICE but simpler; works for startup roadmaps, AI bets, and life decisions.
+
 ## Skill Format (SKILL.md)
 
 Following slavingia/skills convention:
@@ -60,7 +66,7 @@ Each skill lives in `plugins/save-your-startup/skills/sys-<skill-name>/SKILL.md`
 .claude-plugin/           — Marketplace catalog (marketplace.json)
 plugins/save-your-startup/              — The installable plugin
   .claude-plugin/         — Plugin manifest (plugin.json)
-  skills/                 — 12 SKILL.md files
+  skills/                 — 13 SKILL.md files (12 book-derived + 1 companion)
   AGENTS.md               — Plugin voice & conventions
   README.md               — Install + overview + WIIFM
   LICENSE                 — MIT

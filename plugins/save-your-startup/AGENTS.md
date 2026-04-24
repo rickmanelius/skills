@@ -30,6 +30,7 @@ All skills use the `sys:` prefix (short for Save Your Startup) to avoid collisio
 | `sys:five-finger-pitch` | Customer & Market | 5-finger, 5-minute verbal pitch framework |
 | `sys:ruthless-elimination` | Execution | Reclaim 5-15 hours/week with the 3 D's |
 | `sys:break-bottleneck` | Execution | Find and fix the #1 throughput constraint |
+| `sys:prioritize` | Decision Support | Rank a list across 2-4 dimensions with coarse 1-5 scoring (companion skill, not from the book) |
 
 ## Execution Guidelines
 
