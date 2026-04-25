@@ -11,7 +11,7 @@ In Claude Code:
 /plugin install save-your-startup
 ```
 
-That's it — Claude Code will fetch the repo and register all 12 skills automatically.
+That's it — Claude Code will fetch the repo and register all 13 skills automatically.
 
 ## Skills
 
@@ -31,8 +31,9 @@ This book stands on the shoulders of giants. You'll see well cited playbooks in 
 | **Five Finger Pitch** | `/sys:five-finger-pitch` | Build a 5-finger, 5-minute verbal pitch |
 | **Ruthless Elimination** | `/sys:ruthless-elimination` | Reclaim 5-15 hours/week with Delete, Delegate, Delay |
 | **Break Bottleneck** | `/sys:break-bottleneck` | Find and fix your #1 throughput constraint |
+| **Prioritize** *(companion)* | `/sys:prioritize` | Rank a list across 2-4 dimensions with coarse 1-5 scoring |
 
-Over 50 candidate skills were identified from the book — these 12 scored highest on universality, power, and AI-transferability. See the [full ranking](context/analysis/00-master-ranking.md) and [file an issue](https://github.com/rickmanelius/skills/issues) if you'd like another one included.
+Over 50 candidate skills were identified from the book — the 12 above scored highest on universality, power, and AI-transferability. See the [full ranking](context/analysis/00-master-ranking.md) and [file an issue](https://github.com/rickmanelius/skills/issues) if you'd like another one included. `/sys:prioritize` is a companion skill — not from the book, but in the same spirit.
 
 ## Quickstart
 

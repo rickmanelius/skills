@@ -1,7 +1,7 @@
 {
   "name": "save-your-startup",
-  "version": "1.0.0",
-  "description": "12 battle-tested founder skills from Save Your Startup by Rick Manelius",
+  "version": "1.1.0",
+  "description": "12 founder skills from Save Your Startup by Rick Manelius, plus 1 companion prioritization tool",
   "author": {
     "name": "Rick Manelius",
     "url": "https://github.com/rickmanelius"
