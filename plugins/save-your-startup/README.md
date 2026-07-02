@@ -1,6 +1,6 @@
 # Save Your Startup — Skills Plugin
 
-12 battle-tested founder mentorship skills from [*Save Your Startup*](https://saveyourstartup.com) by Rick Manelius, plus 1 companion decision-making skill (`/sys:prioritize`). Built as Claude Code slash commands, in the spirit of [Sahil Lavingia's skills](https://github.com/slavingia/skills).
+12 battle-tested founder mentorship skills from [*Save Your Startup*](https://saveyourstartup.com) by Rick Manelius, plus 2 companion skills (`/sys:prioritize`, `/sys:time-to-wow`). Built as Claude Code slash commands, in the spirit of [Sahil Lavingia's skills](https://github.com/slavingia/skills).
 
 ## Install
 
@@ -9,7 +9,7 @@
 /plugin install save-your-startup
 ```
 
-That's it. All 13 skills are now available as `/sys:*` slash commands.
+That's it. All 14 skills are now available as `/sys:*` slash commands.
 
 ## What You Get
 
@@ -49,6 +49,7 @@ A Techstars All-Star Mentor in your terminal. Each skill is a structured walkthr
 | Skill | What it does |
 |-------|-------------|
 | `/sys:wiifm-check` | Run your product through the 7 questions every prospect silently asks before they care. |
+| `/sys:time-to-wow` | Audit and optimize the path from trial sign-up to first delight, then systematically reduce friction and drop-off. Based on David Skok's "Time to Wow" framework. |
 | `/sys:five-finger-pitch` | Build a 5-finger, 5-minute verbal pitch. One finger per minute. No slides needed. |
 
 ### Execution
@@ -91,13 +92,13 @@ The tone is **kind over nice**: direct, honest, and adapted to your situation. T
 
 ## About
 
-**Rick Manelius** is a repeat founder, Techstars All-Star Mentor, and author of [*Save Your Startup*](https://saveyourstartup.com). The 12 `sys:` skills in this plugin are distilled from the frameworks in that book — the ones that actually moved the needle for the founders he's mentored. `/sys:prioritize` is a companion skill: not from the book, but in the same spirit of "simple frameworks, honestly applied."
+**Rick Manelius** is a repeat founder, Techstars All-Star Mentor, and author of [*Save Your Startup*](https://saveyourstartup.com). The 12 `sys:` skills in this plugin are distilled from the frameworks in that book — the ones that actually moved the needle for the founders he's mentored. `/sys:prioritize` and `/sys:time-to-wow` are companion skills: not from the book, but in the same spirit of "simple frameworks, honestly applied."
 
 ## Components
 
 | Type | Count |
 |------|-------|
-| Skills | 13 |
+| Skills | 14 |
 | Agents | 0 |
 | MCP Servers | 0 |
 
