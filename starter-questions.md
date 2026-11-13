@@ -75,3 +75,9 @@
 1. `/high-medium-low Adding a team collaboration feature to our solo-user product`
 2. `/high-medium-low Building an API for third-party integrations`
 3. `/high-medium-low Migrating from a monolith to microservices`
+
+## /sys:mou
+
+1. `/sys:mou My co-founder goes full time, I fund it and keep my day job, and we said 60/40`
+2. `/sys:mou Joint venture between my landscaping company and a two-person software shop to build a scheduling app`
+3. `/sys:mou My partner and I opened a coffee shop a year ago and never wrote anything down`

@@ -1,7 +1,7 @@
 {
   "name": "save-your-startup",
-  "version": "1.2.0",
-  "description": "12 founder skills from Save Your Startup by Rick Manelius, plus 2 companion tools: /sys:prioritize and /sys:time-to-wow",
+  "version": "1.3.0",
+  "description": "12 founder skills from Save Your Startup by Rick Manelius, plus 3 companion tools: /sys:prioritize, /sys:time-to-wow and /sys:mou",
   "author": {
     "name": "Rick Manelius",
     "url": "https://github.com/rickmanelius"
@@ -9,5 +9,5 @@
   "homepage": "https://github.com/rickmanelius/skills",
   "repository": "https://github.com/rickmanelius/skills",
   "license": "MIT",
-  "keywords": ["startup", "founder", "mentorship", "techstars", "skills", "product", "growth"]
+  "keywords": ["startup", "founder", "mentorship", "techstars", "skills", "product", "growth", "partnerships"]
 }
