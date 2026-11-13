@@ -2,7 +2,7 @@
 
 Adapted from Michael Girdley's sample MOU (X, April 21, 2023, https://x.com/girdley/status/1649393986899959813). His original is transcribed in `../references/girdley-mou-sample.md`.
 
-**How to use it.** Everything above the line below is guidance. Copy only what is below the line into the draft, replace every bracket, and delete any row or bullet that does not apply rather than leaving it empty. For three or more partners, add a column to each table and a block under "Who owns what".
+**How to use it.** Everything above the line below is guidance. Copy only what is below the line into the draft, replace every bracket, and delete any row or bullet that does not apply rather than leaving it empty. For three or more partners, add a column to each table and a block under "Who owns what". Leave First rocks out entirely if no rock has a date yet, and ask the user for them instead. Open questions hold only decisions both partners must make; anything the user can answer alone goes to the user, not the page.
 
 **Budget.** 400 to 600 words in total, 750 at most. Page 1 holds Vision through Structure; page 2 holds First rocks, Open questions and What this is. Mike's page 1 is 365 words and fills the page.
 
@@ -14,7 +14,7 @@ Adapted from Michael Girdley's sample MOU (X, April 21, 2023, https://x.com/gird
 | Who owns what | 3 to 5 bullets per person |
 | Structure | up to 5 bullets |
 | First rocks | 3 to 5 rows |
-| Open questions | as many as are real; zero is fine |
+| Open questions | 6 at most, and only decisions both partners must make; zero is fine |
 | What this is | 2 lines plus the agreed line |
 
 ---
@@ -66,9 +66,10 @@ Adapted from Michael Girdley's sample MOU (X, April 21, 2023, https://x.com/gird
 
 ## Open questions
 
-| Question | Owner | Decide by |
-|---|---|---|
-| [What is not agreed yet] | [Name] | [Date] |
+We settle these at our meeting on [date].
+
+1. [A decision we make together.] ([Owner])
+2. [A decision with its own deadline.] ([Owner], before [date or event])
 
 ## What this is
 

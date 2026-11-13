@@ -74,7 +74,7 @@ Ask:
 Then pick the entry mode:
 
 - **Interview first** (default). Go section by section through Phase 2, then draft.
-- **Notes first.** If the user hands over notes and wants a draft quickly, write v1 from what is there and run the interview as part of the clarity loop. Every gap becomes an open question rather than a guess. A guessed number in a document that is about to be shared turns into a number someone anchors on.
+- **Notes first.** If the user hands over notes and wants a draft quickly, write v1 from what is there and run the interview as part of the clarity loop. Sort every gap (see "Sorting the gaps" below) instead of guessing. A guessed number in a document that is about to be shared turns into a number someone anchors on.
 - **Already operating.** Start from current reality: who actually does what today, the hours, the money in so far. Then ask where it should go. Frame the document as "how we work from here", which is far easier to raise with a partner than "let's renegotiate". When today's reality and the current split disagree (equal shares, unequal hours), record that as an open question to discuss, not as a conclusion.
 
 ### Phase 2: Interview
@@ -113,18 +113,27 @@ Work section by section. Use the questions below as a menu, not a script, and sk
 **First rocks**
 - What three to five things does each person finish first? Write each as a finished outcome with a date: "Signed lease for the first location by March 31", not "Work on locations".
 - Does a first hire get a column?
+- If there are no rocks with dates yet, ask the user for them. Drafting without them, leave the section out rather than filling it with placeholders.
 
 **Open questions**
-- What has not been agreed? Each item gets an owner and a decide-by date.
+- What has not been agreed? Each item gets an owner, and the list gets the date of the meeting where you settle it.
 
 **Handling the answers**
-- When an answer is vague, ask once more with something concrete to react to: "Closer to 5 hours a month or 20?" If it is still unknown, it becomes an open question. "I don't know" is useful; it just goes on the list.
-- The user speaks for themselves. For the partner's side, write what was discussed and mark anything unconfirmed: "(confirm with Sam)".
+- When an answer is vague, ask once more with something concrete to react to: "Closer to 5 hours a month or 20?" If it is still unknown, sort it (below). "I don't know" is useful; it just has to land somewhere.
+- The user speaks for themselves. For the partner's side, write what was discussed. The cover note asks the partner to mark anything that reads differently, so the MOU needs no "to confirm" tags.
 - Kind over nice. If the deal looks lopsided, or the user keeps steering around a topic, say so plainly, once, and let them decide.
+
+**Sorting the gaps.** Every missing piece goes to one of two places, and only one of them is the MOU.
+- **Yours to answer.** Anything the user can settle alone: their own goals, their own hours, facts they hold (what their day-job contract says, what was said on the call, the real numbers). Ask the user. If they are not around, list these at the top of your reply under "Before this goes to [partner]", most important first. They never go into the MOU: the partner should not receive a page of the user's unfinished homework.
+- **Decide together.** Real decisions neither partner can make alone: vesting, the exit, decision rights, what the money buys. These go into the MOU's Open questions, because naming them is part of the deal.
+
+**Six open questions at most.** A memo that is mostly questions is not a memo yet; it is an agenda. If more than six real joint decisions remain, say so plainly: the conversation has to come before the document. Offer to turn the list into a one-page agenda for that conversation, and write the MOU after it.
 
 ### Phase 3: Draft
 
-Fill the template and save it right away as `mou-{slug}.md`, in `deliverables/` if that folder exists or the current directory if not. The file always holds the latest draft, so nothing is lost if the conversation ends. Show the full draft in the chat, then go straight to Phase 4.
+Fill the template and save it right away as `mou-{slug}.md`, in `deliverables/` if that folder exists or the current directory if not. The file always holds the latest draft, so nothing is lost if the conversation ends. Then go straight to Phase 4.
+
+Order the reply so the user can act on it in the time they have: the "Before this goes to [partner]" questions first (eight at most, most important first), then the full draft, then the clarity report, then the sign-off question.
 
 These are the simplicity and clarity rules. Each one exists because of a specific way partners end up reading the same page differently.
 
@@ -132,13 +141,14 @@ These are the simplicity and clarity rules. Each one exists because of a specifi
 2. **State each fact once.** A split given as both a ratio and dollar amounts will drift. Mike's sample says 60/40 "in line with $ contributed" next to $100k and $60k, which is 62.5/37.5.
 3. **A name and a verb in every commitment.** "Ana signs the lease by March 31," not "A lease will be secured." Passive voice hides who owes what.
 4. **One term for one thing.** Pick "the company" or its name and keep it. Spell out any acronym the partner might not know, or drop it.
-5. **No escape words.** Reasonable, fair, help, support, as needed, expected to, best efforts, ASAP, significant, involved. Each one gets a number or goes to Open questions.
-6. **Nothing unresolved in the body.** No TBD, no bracketed notes, no question marks. Those are open questions.
+5. **No escape words.** Reasonable, fair, help, support, as needed, expected to, best efforts, ASAP, significant, involved. Replace each with a number; without one, sort it as a gap (yours to answer, or decide together).
+6. **Nothing unresolved in the body.** No TBD, no bracketed notes, no question marks. Sort those as gaps too.
 7. **Plain words.** No "shall", "hereinafter", "whereas" or "party". Write it the way you would say it across a table.
 8. **One idea per bullet.** If a bullet needs a second sentence, it is probably two bullets or a table row.
 9. **Plain punctuation.** Periods, commas, colons. No em or en dashes: they tend to smuggle a second idea into a line, and many readers now take them as a sign the text was machine-written.
 10. **Real names**, never "Partner #1".
-11. **Stay in budget.** 400 to 600 words, 750 at most.
+11. **Estimates stay estimates.** "Sam estimates 25 hours a week for six months" must not become "Sam delivers in six months". A promise nobody made, sitting in a shared document, is the fastest way to lose the partner's trust in the rest of it.
+12. **Stay in budget.** 400 to 600 words, 750 at most.
 
 ### Phase 4: Clarity Loop
 
@@ -151,11 +161,14 @@ Run this after every draft: two passes, a short report, then the sign-off questi
 
 Then read it as a stranger three years from now, say a new investor or a lawyer. From the page alone, could they tell who owes what?
 
+**Your private read.** In one to three sentences, tell the user what a good mentor would: the number that changes the conversation (what 60/40 implies an hour of the partner's work is worth, for example), or the worry under the stated worry ("is this about pay, or about being alone in the building fifty hours a week?"). It goes in the reply and the notes, never in the MOU.
+
 **Pass B: the mechanical check.**
 - Word count.
 - Money and time for every person, as numbers (or "none").
 - Percentages add to 100, and any number that appears twice matches.
-- Every rock and every open question has an owner and a date.
+- Every rock has an owner and a date. Every open question has an owner, the list has a settle-by date, and there are six or fewer.
+- Nothing in Open questions is something the user could answer alone.
 - No escape words, inline TBDs, undefined acronyms, legalese or dashes.
 - The exit is defined, or it is an open question.
 
@@ -164,8 +177,10 @@ Then read it as a stranger three years from now, say a new investor or a lawyer.
 ```
 Clarity check, draft v2 (540 words)
 
+My read: if the $30,000 is Brightline's fee, it works out to about $46 an hour for Sam's estimated 650 hours. Settle what that money is before anything else.
+
 Sam will likely ask:
-1. Does my 15 hours a month include sales calls, or only the build?
+1. Do my 25 hours a week cover support after launch, or only the build?
 2. ...
 
 Could be read two ways:
@@ -192,13 +207,20 @@ When the user says yes:
 2. **Write `mou-{slug}-notes.md`**, beside it, with:
    - **A cover note** to the partner, three or four plain sentences: here is my write-up of what we discussed, mark anything that reads differently to you, let's meet on [date] to finalize.
    - **The meeting agenda:** the open questions, plus any line flagged as likely to sting.
+   - **For you only:** your private read, and any lawyer or CPA flags from the Ground Rules.
    - **The version log:** what changed in each round, and why.
    - **After the meeting:** blank, for later. What the partner changed, and what the draft missed.
 3. **Name the next step.** Mike finishes with a meeting to finalize, so read it together. Afterward, the user can bring the partner's changes back here to make the agreed version, dated, that both partners keep. Revisit it when something big changes (a new partner, a raise, a role shift), and plan to have counsel turn it into formal agreements.
 
 ## Ground Rules
 
-- **You are a mentor and a scribe, not a lawyer.** Flag entity, tax, securities, and anything meant to bind (confidentiality, exclusivity, IP assignment) for a professional. Do not draft legal clauses.
+- **You are a mentor and a scribe, not a lawyer.** Do not draft legal clauses. When one of these comes up, flag it in one line for a lawyer or CPA, in the reply and the notes, not the MOU:
+  - money changing hands before the company exists;
+  - founder shares being issued (in the US, the 83(b) tax election must be filed within 30 days, and a miss generally cannot be fixed);
+  - work or code created before the company exists, or by someone whose day-job contract may claim it;
+  - regulated data, such as health, financial or children's records;
+  - a personal guarantee on a lease or loan;
+  - anything meant to bind now: confidentiality, exclusivity, IP assignment, the entity and its tax choice.
 - **Never invent a term to fill a gap.** Gaps become open questions.
 - **Write for the partner.** The test is whether the other side reads the same deal the user meant.
 - **The user decides when it is done.**
