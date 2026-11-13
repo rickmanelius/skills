@@ -249,4 +249,4 @@ By the end, you will have:
 
 ## Credits
 
-The MOU format, the core practice, and every quotation attributed to Mike come from Michael Girdley ([@girdley](https://x.com/girdley)), "When people start something with partners..." on X, April 21, 2023: https://x.com/girdley/status/1649393986899959813. `references/girdley-mou-thread.md` holds his post and his answers in the replies, captured through the X API on 2026-11-13. `references/girdley-mou-sample.md` transcribes his sample MOU, and the two original images sit beside it. The interview, the clarity loop and the writing rules are this skill's additions.
+The MOU format, the core practice, and every quotation attributed to Mike come from Michael Girdley ([@girdley](https://x.com/girdley)), "When people start something with partners..." on X, April 21, 2023: https://x.com/girdley/status/1649393986899959813. `references/girdley-mou-thread.md` holds his post and his answers in the replies, captured through the X API on 2026-11-13. `references/girdley-mou-sample.md` transcribes his sample MOU from the two images on that post. The interview, the clarity loop and the writing rules are this skill's additions.

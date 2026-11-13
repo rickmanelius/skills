@@ -7,7 +7,7 @@
 **Engagement at capture:** 840 likes, 1,343 bookmarks, 81 reposts, 67 replies, about 302,000 views.
 **Rights:** Mike's words, quoted here with credit as reference material. The repository's MIT license does not cover them.
 
-The sample MOU attached to the post is transcribed in `girdley-mou-sample.md`, with the original images beside it.
+The sample MOU attached to the post is transcribed in `girdley-mou-sample.md`; the original images stay on the post.
 
 ---
 

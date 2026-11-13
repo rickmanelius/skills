@@ -3,7 +3,7 @@
 **Author:** Michael Girdley ([@girdley](https://x.com/girdley))
 **Source:** the two images attached to his X post "When people start something with partners..." (April 21, 2023):
 https://x.com/girdley/status/1649393986899959813
-**Originals in this folder:** `girdley-mou-sample-page1.jpg` (1224x1570) and `girdley-mou-sample-page2-initial-rocks.png` (1202x1568), downloaded at full resolution from the post through the X API on 2026-11-13.
+**Originals:** on the post itself, https://x.com/girdley/status/1649393986899959813/photo/1 (page 1, 1224x1570) and https://x.com/girdley/status/1649393986899959813/photo/2 (page 2, 1202x1568). Transcribed from the full-resolution files, downloaded through the X API on 2026-11-13. The images are not stored here; the text below is what the skill reads.
 **Rights:** Michael Girdley's work, reproduced here with credit as reference material. The repository's MIT license does not cover it.
 
 Mike says in the replies that the company is made up: "To be clear, this is a fictitious company. There is zero way I'm opening a restaurant." Read it as a format example, not a real deal.
