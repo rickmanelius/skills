@@ -94,7 +94,7 @@ Work section by section. Use the questions below as a menu, not a script, and sk
 
 **Who puts in what** (for each person)
 - Money: how much, when, in what tranches, and what triggers the next tranche? Equity or a loan?
-- Time: how many hours a month, starting when, for how long? "A lot" and "as needed" are not answers yet.
+- Time: how many hours a month, starting when, for how long? "A lot" and "as needed" are not answers yet, and neither is "full time": 40 hours a week and 60 are different deals.
 - Other: assets, IP, customers, relationships, equipment, a location. Who owns each one afterward?
 - Expertise: turn it into hours or deliverables. Mike: "contributing 'expertise' is really tough to quantify."
 - Wants out of this: cash flow, a sale, a salary, a title, learning? By when? (A reader under Mike's post asked exactly this: "What do you expect to get out of it?")
@@ -116,7 +116,7 @@ Work section by section. Use the questions below as a menu, not a script, and sk
 - If there are no rocks with dates yet, ask the user for them. Drafting without them, leave the section out rather than filling it with placeholders.
 
 **Open questions**
-- What has not been agreed? Each item gets an owner, and the list gets the date of the meeting where you settle it.
+- What has not been agreed? Each item gets an owner, and the list gets the date of the meeting where you settle it. If no date is set, propose one a week or two out, mark it "(proposed)" in the MOU, and ask the user to confirm it.
 
 **Handling the answers**
 - When an answer is vague, ask once more with something concrete to react to: "Closer to 5 hours a month or 20?" If it is still unknown, sort it (below). "I don't know" is useful; it just has to land somewhere.
@@ -124,10 +124,10 @@ Work section by section. Use the questions below as a menu, not a script, and sk
 - Kind over nice. If the deal looks lopsided, or the user keeps steering around a topic, say so plainly, once, and let them decide.
 
 **Sorting the gaps.** Every missing piece goes to one of two places, and only one of them is the MOU.
-- **Yours to answer.** Anything the user can settle alone: their own goals, their own hours, facts they hold (what their day-job contract says, what was said on the call, the real numbers). Ask the user. If they are not around, list these at the top of your reply under "Before this goes to [partner]", most important first. They never go into the MOU: the partner should not receive a page of the user's unfinished homework.
+- **Yours to answer.** Anything the user can settle alone: their own goals, their own hours, facts they hold (what their day-job contract says, what was said on the call, the real numbers). Ask the user. If they are not around, list these at the top of your reply under "Before this goes to [partner]", most important first. They never go into the MOU as questions: the partner should not receive a page of the user's unfinished homework. When the missing piece is a number the MOU needs (the user's own hours, say), leave a visible blank in the draft, such as "__ hours a month", and put it first on the list. A blank is honest and hard to miss; a vague phrase in its place hides the gap from both of you, and the draft is not ready to send until every blank is filled.
 - **Decide together.** Real decisions neither partner can make alone: vesting, the exit, decision rights, what the money buys. These go into the MOU's Open questions, because naming them is part of the deal.
 
-**Six open questions at most.** A memo that is mostly questions is not a memo yet; it is an agenda. If more than six real joint decisions remain, say so plainly: the conversation has to come before the document. Offer to turn the list into a one-page agenda for that conversation, and write the MOU after it.
+**Six open questions at most, one decision each.** Folding three questions into one line to get under the cap defeats the point. A memo that is mostly questions is not a memo yet; it is an agenda. If more than six real joint decisions remain, say so plainly: the conversation has to come before the document. Offer to turn the list into a one-page agenda for that conversation, and write the MOU after it.
 
 ### Phase 3: Draft
 
@@ -147,7 +147,7 @@ These are the simplicity and clarity rules. Each one exists because of a specifi
 8. **One idea per bullet.** If a bullet needs a second sentence, it is probably two bullets or a table row.
 9. **Plain punctuation.** Periods, commas, colons. No em or en dashes: they tend to smuggle a second idea into a line, and many readers now take them as a sign the text was machine-written.
 10. **Real names**, never "Partner #1".
-11. **Estimates stay estimates.** "Sam estimates 25 hours a week for six months" must not become "Sam delivers in six months". A promise nobody made, sitting in a shared document, is the fastest way to lose the partner's trust in the rest of it.
+11. **Estimates and qualifiers stay as given.** "Sam estimates 25 hours a week for six months" must not become "Sam delivers in six months", and "50/50 for now" keeps its "for now" (or becomes an open question about when to revisit it). The same goes for the trigger in "What this is": the user names when the lawyers come in; don't pick one that holds up money or work. A promise nobody made, sitting in a shared document, is the fastest way to lose the partner's trust in the rest of it.
 12. **Stay in budget.** 400 to 600 words, 750 at most.
 
 ### Phase 4: Clarity Loop
@@ -167,7 +167,8 @@ Then read it as a stranger three years from now, say a new investor or a lawyer.
 - Word count.
 - Money and time for every person, as numbers (or "none").
 - Percentages add to 100, and any number that appears twice matches.
-- Every rock has an owner and a date. Every open question has an owner, the list has a settle-by date, and there are six or fewer.
+- Every rock has an owner and a date. Every open question is one decision with an owner, the list has a settle-by date (proposed is fine), and there are six or fewer.
+- Every blank the user must fill is listed at the top of the reply.
 - Nothing in Open questions is something the user could answer alone.
 - No escape words, inline TBDs, undefined acronyms, legalese or dashes.
 - The exit is defined, or it is an open question.

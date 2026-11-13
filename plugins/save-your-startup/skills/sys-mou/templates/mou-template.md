@@ -2,7 +2,7 @@
 
 Adapted from Michael Girdley's sample MOU (X, April 21, 2023, https://x.com/girdley/status/1649393986899959813). His original is transcribed in `../references/girdley-mou-sample.md`.
 
-**How to use it.** Everything above the line below is guidance. Copy only what is below the line into the draft, replace every bracket, and delete any row or bullet that does not apply rather than leaving it empty. For three or more partners, add a column to each table and a block under "Who owns what". Leave First rocks out entirely if no rock has a date yet, and ask the user for them instead. Open questions hold only decisions both partners must make; anything the user can answer alone goes to the user, not the page.
+**How to use it.** Everything above the line below is guidance. Copy only what is below the line into the draft, replace every bracket, and delete any row or bullet that does not apply rather than leaving it empty. For three or more partners, add a column to each table and a block under "Who owns what". Leave First rocks out entirely if no rock has a date yet, and ask the user for them instead. Open questions hold only decisions both partners must make, one decision per item; anything the user can answer alone goes to the user, not the page. A number only the user can give becomes a visible blank ("__ hours a month") until they give it. If no meeting date is set, propose one and mark it "(proposed)". The date or event in "What this is" comes from the user too.
 
 **Budget.** 400 to 600 words in total, 750 at most. Page 1 holds Vision through Structure; page 2 holds First rocks, Open questions and What this is. Mike's page 1 is 365 words and fills the page.
 
