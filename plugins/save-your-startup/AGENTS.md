@@ -31,6 +31,8 @@ All skills use the `sys:` prefix (short for Save Your Startup) to avoid collisio
 | `sys:ruthless-elimination` | Execution | Reclaim 5-15 hours/week with the 3 D's |
 | `sys:break-bottleneck` | Execution | Find and fix the #1 throughput constraint |
 | `sys:prioritize` | Decision Support | Rank a list across 2-4 dimensions with coarse 1-5 scoring (companion skill, not from the book) |
+| `sys:time-to-wow` | Customer & Market | Shorten the path from trial sign-up to first delight (companion skill, David Skok's framework) |
+| `sys:mou` | Alignment | Two-page partner MOU, refined until the user would send it (companion skill, Michael Girdley's template) |
 
 ## Execution Guidelines
 

@@ -1,6 +1,6 @@
 # Save Your Startup — Skills Plugin
 
-12 battle-tested founder mentorship skills from [*Save Your Startup*](https://saveyourstartup.com) by Rick Manelius, plus 2 companion skills (`/sys:prioritize`, `/sys:time-to-wow`). Built as Claude Code slash commands, in the spirit of [Sahil Lavingia's skills](https://github.com/slavingia/skills).
+12 battle-tested founder mentorship skills from [*Save Your Startup*](https://saveyourstartup.com) by Rick Manelius, plus 3 companion skills (`/sys:prioritize`, `/sys:time-to-wow`, `/sys:mou`). Built as Claude Code slash commands, in the spirit of [Sahil Lavingia's skills](https://github.com/slavingia/skills).
 
 ## Install
 
@@ -9,7 +9,7 @@
 /plugin install save-your-startup
 ```
 
-That's it. All 14 skills are now available as `/sys:*` slash commands.
+That's it. All 15 skills are now available as `/sys:*` slash commands.
 
 ## What You Get
 
@@ -22,6 +22,7 @@ A Techstars All-Star Mentor in your terminal. Each skill is a structured walkthr
 | `/sys:paint-done` | Define "done" before any work begins. Prevents the #1 cause of wasted effort: misaligned expectations. |
 | `/sys:chunk` | Break a 10-year vision into today's next action across 7 time horizons. |
 | `/sys:high-medium-low` | Define LOW/MEDIUM/HIGH scope tiers so you build the right amount, not the most. |
+| `/sys:mou` | Write a two-page Memorandum of Understanding with a business partner before the lawyers: vision, who puts in what, who owns what, structure, exit, first moves. It interviews you, drafts, reads the draft the way your partner will, and keeps refining until you would send it. Built on [Michael Girdley's MOU template](https://x.com/girdley/status/1649393986899959813). |
 
 ### Decision Support
 
@@ -79,6 +80,10 @@ Try one of these right now:
 /sys:prioritize 8 features for our Q3 roadmap
 ```
 
+```
+/sys:mou My co-founder goes full time, I fund it and keep my day job, and we said 60/40
+```
+
 ## How It Works
 
 Each skill follows the same pattern:
@@ -92,13 +97,13 @@ The tone is **kind over nice**: direct, honest, and adapted to your situation. T
 
 ## About
 
-**Rick Manelius** is a repeat founder, Techstars All-Star Mentor, and author of [*Save Your Startup*](https://saveyourstartup.com). The 12 `sys:` skills in this plugin are distilled from the frameworks in that book — the ones that actually moved the needle for the founders he's mentored. `/sys:prioritize` and `/sys:time-to-wow` are companion skills: not from the book, but in the same spirit of "simple frameworks, honestly applied."
+**Rick Manelius** is a repeat founder, Techstars All-Star Mentor, and author of [*Save Your Startup*](https://saveyourstartup.com). The 12 `sys:` skills in this plugin are distilled from the frameworks in that book — the ones that actually moved the needle for the founders he's mentored. `/sys:prioritize`, `/sys:time-to-wow` and `/sys:mou` are companion skills: not from the book, but in the same spirit of "simple frameworks, honestly applied." `/sys:mou` builds on Michael Girdley's MOU template and thread, cited in the skill and its references.
 
 ## Components
 
 | Type | Count |
 |------|-------|
-| Skills | 14 |
+| Skills | 15 |
 | Agents | 0 |
 | MCP Servers | 0 |
 
