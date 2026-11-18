@@ -1,6 +1,6 @@
 # Save Your Startup — Skills Plugin
 
-12 battle-tested founder mentorship skills from [*Save Your Startup*](https://saveyourstartup.com) by Rick Manelius, plus 3 companion skills (`/sys:prioritize`, `/sys:time-to-wow`, `/sys:mou`). Built as Claude Code slash commands, in the spirit of [Sahil Lavingia's skills](https://github.com/slavingia/skills).
+12 battle-tested founder mentorship skills from [*Save Your Startup*](https://saveyourstartup.com) by Rick Manelius, plus 4 companion skills (`/sys:prioritize`, `/sys:time-to-wow`, `/sys:mou`, `/sys:venice-video`). Built as Claude Code slash commands, in the spirit of [Sahil Lavingia's skills](https://github.com/slavingia/skills).
 
 ## Install
 
@@ -9,7 +9,7 @@
 /plugin install save-your-startup
 ```
 
-That's it. All 15 skills are now available as `/sys:*` slash commands.
+That's it. All 16 skills are now available as `/sys:*` slash commands.
 
 ## What You Get
 
@@ -52,6 +52,7 @@ A Techstars All-Star Mentor in your terminal. Each skill is a structured walkthr
 | `/sys:wiifm-check` | Run your product through the 7 questions every prospect silently asks before they care. |
 | `/sys:time-to-wow` | Audit and optimize the path from trial sign-up to first delight, then systematically reduce friction and drop-off. Based on David Skok's "Time to Wow" framework. |
 | `/sys:five-finger-pitch` | Build a 5-finger, 5-minute verbal pitch. One finger per minute. No slides needed. |
+| `/sys:venice-video` | Make a live-action-looking video ad or launch video with Venice's API (Seedance 2.5, Nano Banana Pro, Sonilo). It writes the story in WIIFM order, renders the readable screens for free, then makes stills, drafts, upgrades and music, with a free quote and your approval before every dollar. Needs a Venice API key, Python 3 and Chrome. |
 
 ### Execution
 
@@ -84,6 +85,10 @@ Try one of these right now:
 /sys:mou My co-founder goes full time, I fund it and keep my day job, and we said 60/40
 ```
 
+```
+/sys:venice-video A 30 second launch video for our meal-planning app, budget $40
+```
+
 ## How It Works
 
 Each skill follows the same pattern:
@@ -97,13 +102,13 @@ The tone is **kind over nice**: direct, honest, and adapted to your situation. T
 
 ## About
 
-**Rick Manelius** is a repeat founder, Techstars All-Star Mentor, and author of [*Save Your Startup*](https://saveyourstartup.com). The 12 `sys:` skills in this plugin are distilled from the frameworks in that book — the ones that actually moved the needle for the founders he's mentored. `/sys:prioritize`, `/sys:time-to-wow` and `/sys:mou` are companion skills: not from the book, but in the same spirit of "simple frameworks, honestly applied." `/sys:mou` builds on Michael Girdley's MOU template and thread, cited in the skill and its references.
+**Rick Manelius** is a repeat founder, Techstars All-Star Mentor, and author of [*Save Your Startup*](https://saveyourstartup.com). The 12 `sys:` skills in this plugin are distilled from the frameworks in that book: the ones that actually moved the needle for the founders he's mentored. `/sys:prioritize`, `/sys:time-to-wow`, `/sys:mou` and `/sys:venice-video` are companion skills: not from the book, but in the same spirit of "simple frameworks, honestly applied." `/sys:mou` builds on Michael Girdley's MOU template and thread, cited in the skill and its references.
 
 ## Components
 
 | Type | Count |
 |------|-------|
-| Skills | 15 |
+| Skills | 16 |
 | Agents | 0 |
 | MCP Servers | 0 |
 

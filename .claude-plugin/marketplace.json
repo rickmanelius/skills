@@ -6,18 +6,18 @@
   },
   "metadata": {
     "description": "Save Your Startup — AI-powered founder mentorship skills",
-    "version": "1.2.0"
+    "version": "1.3.0"
   },
   "plugins": [
     {
       "name": "save-your-startup",
-      "description": "12 founder skills from Save Your Startup by Rick Manelius, plus 3 companion tools (prioritize, time to wow, partner MOU). Techstars mentor voice. Walkthrough format.",
+      "description": "12 founder skills from Save Your Startup by Rick Manelius, plus 4 companion tools (prioritize, time to wow, partner MOU, AI video ads with Venice). Techstars mentor voice. Walkthrough format.",
       "author": {
         "name": "Rick Manelius",
         "url": "https://github.com/rickmanelius"
       },
       "homepage": "https://github.com/rickmanelius/skills",
-      "tags": ["startup", "founder", "mentorship", "techstars", "pitch", "planning", "decision-making", "partnerships"],
+      "tags": ["startup", "founder", "mentorship", "techstars", "pitch", "planning", "decision-making", "partnerships", "video"],
       "source": "./plugins/save-your-startup"
     }
   ]

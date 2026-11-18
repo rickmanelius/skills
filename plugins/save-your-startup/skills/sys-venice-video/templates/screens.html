@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=1920">
+<title>Scenario Screens</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;1,7..72,400&display=swap">
+<style>
+/* Screen inserts and end cards: the readable beats a video model cannot draw. One element per PNG with
+   class="frame" and a unique data-name (letters, digits, _ or -); `seedance.py screens` writes
+   refs/screens/NAME.png in the order the frames appear. Open this file with ?only=N to see frame N alone.
+   Fictional names and data. Generic UI only: no real product's look and no third-party logos, unless it is
+   your own product. Anything the viewer must read in two seconds is at least 44 px. */
+:root { --ink: #1E2633; --muted: #5F6672; --line: #E5E7EB; --paper: #FBF8F1; --accent: #8C2F39;
+  --sans: 'Inter', system-ui, sans-serif; --serif: 'Literata', Georgia, serif; }
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body { font-family: var(--sans); color: var(--ink); background: #222; }
+.frame { width: 1920px; height: 1080px; position: relative; overflow: hidden; display: flex; align-items: center; justify-content: center;
+  background: radial-gradient(ellipse at 30% 20%, #3A4A63 0%, #1D2430 60%, #141922 100%); }
+.win { width: 1500px; height: 820px; background: #FFFFFF; border-radius: 18px; box-shadow: 0 30px 80px rgba(0,0,0,.45); padding: 70px 90px; }
+.only-hidden { display: none !important; }
+</style>
+</head>
+<body>
+
+<section data-name="S1-insert" class="frame">
+  <div class="win">
+    <div style="font-size: 26px; color: var(--muted)">REPLACE: the app or document this screen belongs to</div>
+    <div style="margin-top: 30px; font-size: 64px; font-weight: 700; line-height: 1.15">REPLACE: the one line the viewer must read</div>
+    <div style="margin-top: 30px; font-size: 44px; line-height: 1.4; color: #3A4352">REPLACE: supporting text, short enough to read in two seconds.</div>
+  </div>
+</section>
+
+<section data-name="E1-endcard" class="frame" style="background: var(--paper); flex-direction: column; gap: 40px">
+  <div style="font-family: var(--serif); font-size: 96px; font-weight: 600; letter-spacing: -0.02em">REPLACE: the line.</div>
+  <div style="font-size: 34px; font-weight: 600; letter-spacing: 0.4em">REPLACE: MARK</div>
+  <div style="position: absolute; right: 60px; bottom: 44px; font-size: 22px; color: #6F6860">Dramatization.</div>
+</section>
+
+<script>
+(function () {
+  var only = new URLSearchParams(location.search).get('only');
+  if (!only) return;
+  document.querySelectorAll('.frame').forEach(function (f, i) {
+    if (String(i + 1) !== only && f.getAttribute('data-name') !== only) f.classList.add('only-hidden');
+  });
+})();
+</script>
+</body>
+</html>

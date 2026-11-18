@@ -33,6 +33,7 @@ All skills use the `sys:` prefix (short for Save Your Startup) to avoid collisio
 | `sys:prioritize` | Decision Support | Rank a list across 2-4 dimensions with coarse 1-5 scoring (companion skill, not from the book) |
 | `sys:time-to-wow` | Customer & Market | Shorten the path from trial sign-up to first delight (companion skill, David Skok's framework) |
 | `sys:mou` | Alignment | Two-page partner MOU, refined until the user would send it (companion skill, Michael Girdley's template) |
+| `sys:venice-video` | Customer & Market | Generated video ad or launch video through Venice's API, approved before every dollar (companion skill, WIIFM story method) |
 
 ## Execution Guidelines
 
