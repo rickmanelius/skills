@@ -2,7 +2,7 @@
 
 ## What This Repo Is
 
-This repo (`rickmanelius/skills`) is a Claude Code marketplace containing the **save-your-startup** plugin — 12 AI-powered founder mentorship skills derived from the book **Save Your Startup** by Rick Manelius, plus 3 companion skills (`/sys:prioritize`, `/sys:time-to-wow`, `/sys:mou`). It follows the playbook established by Sahil Lavingia's [slavingia/skills](https://github.com/slavingia/skills).
+This repo (`rickmanelius/skills`) is a Claude Code marketplace containing the **save-your-startup** plugin: 12 AI-powered founder mentorship skills derived from the book **Save Your Startup** by Rick Manelius, plus 4 companion skills (`/sys:prioritize`, `/sys:time-to-wow`, `/sys:mou`, `/sys:venice-video`). It follows the playbook established by Sahil Lavingia's [slavingia/skills](https://github.com/slavingia/skills).
 
 ## Installation
 
@@ -50,6 +50,7 @@ These live in the same plugin but are **not** derived from the book. Same `sys:`
 - `/sys:prioritize` — Generic prioritization matrix. Rank a list across 2-4 dimensions with coarse 1-5 scoring. Inspired by RICE/ICE but simpler; works for startup roadmaps, AI bets, and life decisions.
 - `/sys:time-to-wow`: Audit and shorten the path from trial sign-up to the first "wow". Based on David Skok's framework.
 - `/sys:mou`: A two-page Memorandum of Understanding between partners, written before the lawyers. Interviews the user, drafts, then reads the draft as the partner would and loops until the user says it is clear enough to send. Built on Michael Girdley's MOU template and thread (https://x.com/girdley/status/1649393986899959813); credit him in anything derived from it.
+- `/sys:venice-video`: Generated video ads and launch videos through Venice's API (Seedance 2.5 video, Nano Banana Pro stills, Sonilo music). Bundles `scripts/seedance.py` (Python standard library, offline tests in `tests/`), a SCRIPT.md template and dated field notes in `references/knowledge.md`. Every paid call needs the user's approval (`--approve-up-to`); keep it that way. Story method is the book's WIIFM chapter. Run `python3 -m unittest discover -s tests` in the skill folder after any change to the tool.
 
 ## Skill Format (SKILL.md)
 
@@ -68,7 +69,7 @@ Each skill lives in `plugins/save-your-startup/skills/sys-<skill-name>/SKILL.md`
 .claude-plugin/           — Marketplace catalog (marketplace.json)
 plugins/save-your-startup/              — The installable plugin
   .claude-plugin/         — Plugin manifest (plugin.json)
-  skills/                 — 15 SKILL.md files (12 book-derived + 3 companion)
+  skills/                 — 16 SKILL.md files (12 book-derived + 4 companion)
   AGENTS.md               — Plugin voice & conventions
   README.md               — Install + overview + WIIFM
   LICENSE                 — MIT

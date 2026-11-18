@@ -81,3 +81,9 @@
 1. `/sys:mou My co-founder goes full time, I fund it and keep my day job, and we said 60/40`
 2. `/sys:mou Joint venture between my landscaping company and a two-person software shop to build a scheduling app`
 3. `/sys:mou My partner and I opened a coffee shop a year ago and never wrote anything down`
+
+## /sys:venice-video
+
+1. `/sys:venice-video A 30 second launch video for our meal-planning app, budget $40`
+2. `/sys:venice-video Write the script and quote it, but don't spend anything yet: a vertical 15 second ad for a dog-walking service`
+3. `/sys:venice-video Pick up my spot in ~/videos/launch-spot and upgrade the take I liked`
