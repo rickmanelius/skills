@@ -1,6 +1,5 @@
 <!--
-Template for schedule.md: the prior-inventions schedule to attach to the agreement.
-Shareable only after a lawyer has read it. Remove this comment and the draft banner before attaching.
+Template for schedule.md: the prior-inventions schedule to attach to the agreement. Shareable only after a lawyer has read it. Remove this comment and the draft banner before attaching.
 
 Rules (see references/buckets.md and references/privacy-rules.md):
 - Specific where an item overlaps the counterparty's field; general where it doesn't.
@@ -8,8 +7,7 @@ Rules (see references/buckets.md and references/privacy-rules.md):
 - A patent in preparation gets a generic title.
 - Never claim "independently developed" unless the ledger's evidence supports every part of it.
 - Use the agreement's own name for this list ("Exhibit A", "Schedule A", "Prior Inventions").
-- No item says "none" for lack of evidence; leave it off the schedule and keep it in the ledger as
-  "insufficient evidence" until the user confirms it.
+- No item says "none" for lack of evidence; leave it off the schedule and keep it in the ledger as "insufficient evidence" until the user confirms it.
 - Grep this file against the user's private denylist before it leaves the machine.
 -->
 
@@ -19,10 +17,7 @@ Rules (see references/buckets.md and references/privacy-rules.md):
 
 **[User's full name]**, for the [agreement name] with [counterparty legal name], dated [date].
 
-The items below are inventions, works of authorship, developments and know-how that I made, conceived or
-acquired before this agreement, or that I developed independently of [counterparty], and that I keep. Where an
-item belongs to someone else or is held in confidence, I describe it by the owner's role and a general field
-only, as this agreement permits.
+The items below are inventions, works of authorship, developments and know-how that I made, conceived or acquired before this agreement, or that I developed independently of [counterparty], and that I keep. Where an item belongs to someone else or is held in confidence, I describe it by the owner's role and a general field only, as this agreement permits.
 
 ## Part 1. Owned by me, made or published before [first-hint date]
 
@@ -33,8 +28,7 @@ only, as this agreement permits.
 
 ## Part 2. Owned by me, developed independently after [first-hint date]
 
-Developed on my own time, equipment and accounts, without use of or reference to [counterparty]'s confidential
-information.
+Developed on my own time, equipment and accounts, without use of or reference to [counterparty]'s confidential information.
 
 | # | Item | Dates | Evidence | Field |
 |---|---|---|---|---|
@@ -50,8 +44,7 @@ information.
 
 ## Part 4. Owned by others, or held in confidence
 
-Listed by the owner's role and general field only. I don't claim these, and I won't bring them into my work for
-[counterparty].
+Listed by the owner's role and general field only. I don't claim these, and I won't bring them into my work for [counterparty].
 
 | # | Owner (role only) | General field | Dates |
 |---|---|---|---|
@@ -61,8 +54,7 @@ Listed by the owner's role and general field only. I don't claim these, and I wo
 
 ## Part 5. My contributions to [counterparty] before this agreement
 
-Listed so that nothing is left unclear. Ownership of these is [settled by / to be settled in] [the agreement or
-"a separate written agreement"].
+Listed so that nothing is left unclear. Ownership of these is [settled by / to be settled in] [the agreement or "a separate written agreement"].
 
 | # | Contribution | Dates | Where it lives | Whose idea |
 |---|---|---|---|---|

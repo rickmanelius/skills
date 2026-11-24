@@ -1,11 +1,8 @@
 <!--
-Template for brief.md: the chain-of-title brief, in three parts.
-Part A goes to the counterparty, after a lawyer reads it. Parts B and C stay with the user and the lawyer.
-In Part A, the ask goes first and the audit story last.
+Template for brief.md: the chain-of-title brief, in three parts. Part A goes to the counterparty, after a lawyer reads it. Parts B and C stay with the user and the lawyer. In Part A, the ask goes first and the audit story last.
 -->
 
-> **Draft. Not legal advice.** Part A may be shared with [counterparty] after review by counsel. Parts B and C are
-> private.
+> **Draft. Not legal advice.** Part A may be shared with [counterparty] after review by counsel. Parts B and C are private.
 
 # Clean chain of title: [the user] and [counterparty]
 
@@ -16,11 +13,9 @@ One page. Plain words. The ask first.
 ### What I'm asking for
 
 1. [The first step, e.g. "Countersign the mutual NDA dated [date]."]
-2. [The second step, e.g. "A short written agreement that assigns my contributions so far (listed below) to
-   [operating company legal name], with a license back to me if I don't start."]
+2. [The second step, e.g. "A short written agreement that assigns my contributions so far (listed below) to [operating company legal name], with a license back to me if I don't start."]
 
-Why: when [counterparty] raises money, partners with a large company or is acquired, the other side will ask for
-clean title to everything in the product. This settles it now, while it's easy.
+Why: when [counterparty] raises money, partners with a large company or is acquired, the other side will ask for clean title to everything in the product. This settles it now, while it's easy.
 
 ### What I've contributed so far
 
@@ -30,13 +25,11 @@ clean title to everything in the product. This settles it now, while it's easy.
 
 ### What the audit covered
 
-Two or three sentences: what was searched (code, writing, sessions, notes), the date range, and that the attached
-prior-inventions schedule lists what I keep, with anything confidential to others described by field only.
+Two or three sentences: what was searched (code, writing, sessions, notes), the date range, and that the attached prior-inventions schedule lists what I keep, with anything confidential to others described by field only.
 
 ### Why I ran it
 
-One or two sentences, in the user's voice. Usually: you ran the same check against your past employer, and I'm
-following your lead, to protect what we build together.
+One or two sentences, in the user's voice. Usually: you ran the same check against your past employer, and I'm following your lead, to protect what we build together.
 
 ## Part B. [The user]'s prep (never shared)
 
@@ -55,8 +48,7 @@ One sentence: what yes looks like, and the smallest yes that's still worth havin
 | 5 | | | |
 | Unsaid | [What they'll think afterward but not say, e.g. "Is this a negotiation for more equity?"] | | |
 
-Answer with evidence the other side already trusts: their own repo history, their own messages, their own pitch
-deck, a public date.
+Answer with evidence the other side already trusts: their own repo history, their own messages, their own pitch deck, a public date.
 
 ### Crew pass
 

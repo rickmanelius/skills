@@ -1,7 +1,5 @@
 <!--
-Template for counsel-questions.md: questions for an AI first pass, then for a lawyer.
-Only shareable files (schedule.md, brief.md Part A and Part C, this file) go to a cloud AI service.
-The ledger goes to a local model or nowhere.
+Template for counsel-questions.md: questions for an AI first pass, then for a lawyer. Only shareable files (schedule.md, brief.md Part A and Part C, this file) go to a cloud AI service. The ledger goes to a local model or nowhere.
 -->
 
 > **Not legal advice.** Prepared [date] for [the user].
@@ -10,8 +8,7 @@ The ledger goes to a local model or nowhere.
 
 ## 1. AI first pass: opposing counsel
 
-Give an AI these files only: `schedule.md`, Part A and Part C of `brief.md`, and the agreement itself if the NDA
-allows sharing it (if unsure, describe the clauses instead of pasting them). Then this prompt:
+Give an AI these files only: `schedule.md`, Part A and Part C of `brief.md`, and the agreement itself if the NDA allows sharing it (if unsure, describe the clauses instead of pasting them). Then this prompt:
 
 ```
 You are counsel for [counterparty], reviewing a prior-inventions schedule and a short
@@ -32,23 +29,19 @@ Record the answers in the ledger's open questions. Fix what's clearly right; tak
 
 ## 2. For the lawyer
 
-One flat-fee hour, before signing anything that assigns IP or ties it to equity. Send the schedule, the brief,
-the agreements and the evidence hash ahead. The ledger goes too: it's the file the lawyer most needs, and most
-NDAs allow sharing with your own attorney where they don't allow a cloud AI service.
+One flat-fee hour, before signing anything that assigns IP or ties it to equity. Send the schedule, the brief, the agreements and the evidence hash ahead. The ledger goes too: it's the file the lawyer most needs, and most NDAs allow sharing with your own attorney where they don't allow a cloud AI service.
 
 **About the agreement**
 
 1. Does [clause] reach work I did before [date], including the unpaid contributions in Part 5?
 2. Does the independent-development exclusion cover the items in Part 2, given how they were made?
-3. Which state's employee-invention protections apply to me, if any, and does the agreement include the
-   required notice?
+3. Which state's employee-invention protections apply to me, if any, and does the agreement include the required notice?
 4. If I list an item and later use it in my work for [counterparty], what license does the agreement grant them?
 5. Is there a feedback or residuals clause, and what has it already covered?
 
 **About the schedule**
 
-6. Is each description in Part 4 general enough not to breach my other agreements, and specific enough to
-   protect me?
+6. Is each description in Part 4 general enough not to breach my other agreements, and specific enough to protect me?
 7. Is the generic title for the patent in preparation enough to exclude it?
 8. Anything I should remove, add or reword before attaching it?
 

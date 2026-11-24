@@ -1,7 +1,5 @@
 <!--
-Template for ledger.md: the private evidence file. Never shared except with the user's lawyer.
-Never sent to a cloud AI service. Mark everything only the user can confirm with **[confirm]**.
-Thin evidence is "insufficient evidence", never "none".
+Template for ledger.md: the private evidence file. Never shared except with the user's lawyer. Never sent to a cloud AI service. Mark everything only the user can confirm with **[confirm]**. Thin evidence is "insufficient evidence", never "none".
 -->
 
 > **Private. Not legal advice.** For [the user] and their lawyer only. Last updated [date].
@@ -14,8 +12,7 @@ Five to eight bullets the user can read in a minute:
 
 - What's being signed, with whom, and whether they've countersigned.
 - The two anchor dates.
-- How many items in each bucket, and the two or three that matter most because they overlap the counterparty's
-  field.
+- How many items in each bucket, and the two or three that matter most because they overlap the counterparty's field.
 - The biggest risk in the user's own record (from the self-audit).
 - The one thing to do before signing.
 
@@ -35,8 +32,7 @@ The table from `references/clause-guide.md`, one block per agreement.
 
 ## 4. Do these before anything gets signed
 
-Numbered, each with an owner and a date. Typically: get the NDA countersigned, settle bucket C in writing, fix any
-self-audit findings, lawyer review.
+Numbered, each with an owner and a date. Typically: get the NDA countersigned, settle bucket C in writing, fix any self-audit findings, lawyer review.
 
 ## 5. Bucket A: yours, before [first-hint date]
 
@@ -71,8 +67,7 @@ The findings from `self-audit.md`, or a pointer to it.
 
 ## 11. Coverage
 
-What was searched, with dates and tool runs, and what wasn't. Every gap is listed as "not searched" or
-"insufficient evidence".
+What was searched, with dates and tool runs, and what wasn't. Every gap is listed as "not searched" or "insufficient evidence".
 
 | Source | Searched? | Run date | Output file | Notes |
 |---|---|---|---|---|
