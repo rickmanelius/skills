@@ -1,6 +1,6 @@
 # Save Your Startup — Skills Plugin
 
-12 battle-tested founder mentorship skills from [*Save Your Startup*](https://saveyourstartup.com) by Rick Manelius, plus 4 companion skills (`/sys:prioritize`, `/sys:time-to-wow`, `/sys:mou`, `/sys:venice-video`). Built as Claude Code slash commands, in the spirit of [Sahil Lavingia's skills](https://github.com/slavingia/skills).
+12 battle-tested founder mentorship skills from [*Save Your Startup*](https://saveyourstartup.com) by Rick Manelius, plus 5 companion skills (`/sys:prioritize`, `/sys:time-to-wow`, `/sys:mou`, `/sys:venice-video`, `/sys:ip-audit`). Built as Claude Code slash commands, in the spirit of [Sahil Lavingia's skills](https://github.com/slavingia/skills).
 
 ## Install
 
@@ -9,7 +9,7 @@
 /plugin install save-your-startup
 ```
 
-That's it. All 16 skills are now available as `/sys:*` slash commands.
+That's it. All 17 skills are now available as `/sys:*` slash commands.
 
 ## What You Get
 
@@ -23,6 +23,7 @@ A Techstars All-Star Mentor in your terminal. Each skill is a structured walkthr
 | `/sys:chunk` | Break a 10-year vision into today's next action across 7 time horizons. |
 | `/sys:high-medium-low` | Define LOW/MEDIUM/HIGH scope tiers so you build the right amount, not the most. |
 | `/sys:mou` | Write a two-page Memorandum of Understanding with a business partner before the lawyers: vision, who puts in what, who owns what, structure, exit, first moves. It interviews you, drafts, reads the draft the way your partner will, and keeps refining until you would send it. Built on [Michael Girdley's MOU template](https://x.com/girdley/status/1649393986899959813). |
+| `/sys:ip-audit` | List your prior inventions before you sign an NDA, offer letter, contractor or advisor agreement. It digs through your repos, AI session logs, notes and public posts, sorts your work into what's yours, what you built independently, what you contributed to the other side and what belongs to others, then drafts the schedule (Exhibit A) for that deal, a chain-of-title brief for the conversation and questions for your lawyer. Private material stays on your machine. Not legal advice. |
 
 ### Decision Support
 
@@ -89,6 +90,10 @@ Try one of these right now:
 /sys:venice-video A 30 second launch video for our meal-planning app, budget $40
 ```
 
+```
+/sys:ip-audit Offer from a seed-stage startup I've been helping for free; they want my prior inventions list by Friday
+```
+
 ## How It Works
 
 Each skill follows the same pattern:
@@ -102,13 +107,13 @@ The tone is **kind over nice**: direct, honest, and adapted to your situation. T
 
 ## About
 
-**Rick Manelius** is a repeat founder, Techstars All-Star Mentor, and author of [*Save Your Startup*](https://saveyourstartup.com). The 12 `sys:` skills in this plugin are distilled from the frameworks in that book: the ones that actually moved the needle for the founders he's mentored. `/sys:prioritize`, `/sys:time-to-wow`, `/sys:mou` and `/sys:venice-video` are companion skills: not from the book, but in the same spirit of "simple frameworks, honestly applied." `/sys:mou` builds on Michael Girdley's MOU template and thread, cited in the skill and its references.
+**Rick Manelius** is a repeat founder, Techstars All-Star Mentor, and author of [*Save Your Startup*](https://saveyourstartup.com). The 12 `sys:` skills in this plugin are distilled from the frameworks in that book: the ones that actually moved the needle for the founders he's mentored. `/sys:prioritize`, `/sys:time-to-wow`, `/sys:mou`, `/sys:venice-video` and `/sys:ip-audit` are companion skills: not from the book, but in the same spirit of "simple frameworks, honestly applied." `/sys:mou` builds on Michael Girdley's MOU template and thread, cited in the skill and its references. `/sys:ip-audit` is generalized from Rick's own audit before a signing.
 
 ## Components
 
 | Type | Count |
 |------|-------|
-| Skills | 16 |
+| Skills | 17 |
 | Agents | 0 |
 | MCP Servers | 0 |
 

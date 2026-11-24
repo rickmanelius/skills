@@ -87,3 +87,9 @@
 1. `/sys:venice-video A 30 second launch video for our meal-planning app, budget $40`
 2. `/sys:venice-video Write the script and quote it, but don't spend anything yet: a vertical 15 second ad for a dog-walking service`
 3. `/sys:venice-video Pick up my spot in ~/videos/launch-spot and upgrade the take I liked`
+
+## /sys:ip-audit
+
+1. `/sys:ip-audit I have an offer with an invention assignment agreement and an empty Exhibit A. My code is in ~/code and my blog is on Substack`
+2. `/sys:ip-audit A new client sent a mutual NDA with a prior-inventions schedule. I'm a fractional CTO with three other clients under NDA`
+3. `/sys:ip-audit refresh`
