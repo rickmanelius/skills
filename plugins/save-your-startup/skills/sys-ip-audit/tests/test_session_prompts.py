@@ -95,6 +95,21 @@ class Main(Fixture):
         self.assertEqual(code, 0)
         self.assertEqual(len(out.read_text().splitlines()), 3)
 
+    def test_no_text_keeps_dates_and_keywords_only(self):
+        out = Path(self.tmp.name, "private", "dates-only.jsonl")
+        with contextlib.redirect_stdout(io.StringIO()), contextlib.redirect_stderr(io.StringIO()), \
+                mock.patch.dict(os.environ, GIT_ENV):
+            code = sp.main(["--projects", str(self.root), "--folder", "*acme*", "--keyword", "Inventory",
+                            "--no-text", "--out", str(out)])
+        self.assertEqual(code, 0)
+        rows = [json.loads(x) for x in out.read_text().splitlines()]
+        self.assertEqual(len(rows), 1)
+        self.assertNotIn("text", rows[0])
+        self.assertNotIn("perishables", out.read_text())
+        self.assertEqual(rows[0]["keywords"], ["Inventory"])
+        self.assertEqual(rows[0]["chars"], len("Sketch an inventory forecast for perishables"))
+        self.assertEqual(rows[0]["ts"], "2026-01-05T09:00:00Z")
+
     def test_refuses_repo_with_remote(self):
         repo = Path(self.tmp.name, "public-repo")
         with mock.patch.dict(os.environ, GIT_ENV):

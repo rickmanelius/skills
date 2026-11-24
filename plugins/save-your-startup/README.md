@@ -23,7 +23,7 @@ A Techstars All-Star Mentor in your terminal. Each skill is a structured walkthr
 | `/sys:chunk` | Break a 10-year vision into today's next action across 7 time horizons. |
 | `/sys:high-medium-low` | Define LOW/MEDIUM/HIGH scope tiers so you build the right amount, not the most. |
 | `/sys:mou` | Write a two-page Memorandum of Understanding with a business partner before the lawyers: vision, who puts in what, who owns what, structure, exit, first moves. It interviews you, drafts, reads the draft the way your partner will, and keeps refining until you would send it. Built on [Michael Girdley's MOU template](https://x.com/girdley/status/1649393986899959813). |
-| `/sys:ip-audit` | List your prior inventions before you sign an NDA, offer letter, contractor or advisor agreement. It digs through your repos, AI session logs, notes and public posts, sorts your work into what's yours, what you built independently, what you contributed to the other side and what belongs to others, then drafts the schedule (Exhibit A) for that deal, a chain-of-title brief for the conversation and questions for your lawyer. Private material stays on your machine. Not legal advice. |
+| `/sys:ip-audit` | List your prior inventions before you sign an NDA, offer letter, contractor or advisor agreement. It digs through your repos, AI session logs, notes and public posts, sorts your work into what's yours, what you built independently, what you contributed to the other side and what belongs to others, then drafts the schedule (Exhibit A) for that deal, a chain-of-title brief for the conversation and questions for your lawyer. Its scripts do the bulk reading on your machine, and the other side's confidential files stay closed. Not legal advice. |
 
 ### Decision Support
 

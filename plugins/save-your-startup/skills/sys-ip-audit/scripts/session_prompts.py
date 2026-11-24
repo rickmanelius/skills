@@ -10,7 +10,9 @@ slash-command wrappers, system reminders, compaction summaries and meta lines.
     python3 -I session_prompts.py --folder '*acme*' --keyword inventory --keyword forecast --since 2026-01-01 \
         --out data/session-prompts-inventory.jsonl
 
-One JSON line per prompt: ts, folder, session, cwd, text.
+One JSON line per prompt: ts, folder, session, cwd, text. With --no-text, the text is left out and replaced by
+its length and the keywords it matched, so an AI assistant can date when a topic first came up without reading
+what was said. Use it when the logs may hold someone else's confidential material.
 
 THE OUTPUT HOLDS CONFIDENTIAL MATERIAL: your words, and often a client's or the counterparty's. Keep it on this
 machine. It refuses to write inside a git repository that has a remote unless you pass --force-location.
@@ -78,6 +80,15 @@ def in_window(ts, since, until):
     return True
 
 
+def without_text(row, keywords):
+    """The row with its text replaced by its length and the keywords it matched."""
+    low = row["text"].lower()
+    out = {k: v for k, v in row.items() if k != "text"}
+    out["chars"] = len(row["text"])
+    out["keywords"] = [k for k in keywords or [] if k.lower() in low]
+    return out
+
+
 def iter_prompts(projects, folder_globs, keywords=None, since=None, until=None):
     folders = sorted({f for g in folder_globs for f in glob.glob(os.path.join(projects, g)) if os.path.isdir(f)})
     for folder in folders:
@@ -130,6 +141,8 @@ def main(argv=None):
     ap.add_argument("--since", help="YYYY-MM-DD, inclusive")
     ap.add_argument("--until", help="YYYY-MM-DD, inclusive")
     ap.add_argument("--out", required=True, help="JSON-lines file to write (refuses to overwrite)")
+    ap.add_argument("--no-text", action="store_true",
+                    help="leave the prompt text out; keep timestamps, length and matched keywords")
     ap.add_argument("--force-location", action="store_true",
                     help="allow writing inside a git repository that has a remote (not recommended)")
     args = ap.parse_args(argv)
@@ -151,8 +164,10 @@ def main(argv=None):
     folders = set()
     with open(args.out, "w", encoding="utf-8") as out:
         for row in iter_prompts(args.projects, args.folder or ["*"], args.keyword, args.since, args.until):
-            out.write(json.dumps(row, ensure_ascii=False) + "\n")
             folders.add(row["folder"])
+            if args.no_text:
+                row = without_text(row, args.keyword)
+            out.write(json.dumps(row, ensure_ascii=False) + "\n")
             n += 1
     print(f"{n} prompts from {len(folders)} project folders -> {args.out}")
     print("This file holds confidential material. Keep it on this machine and out of git.", file=sys.stderr)

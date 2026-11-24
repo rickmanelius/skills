@@ -57,9 +57,10 @@ expressive elements." When much of the code on both sides was written with AI, c
 and a short written agreement about joint work carry more weight than they used to. A lawyer should confirm how
 that plays out where the user lives.
 
-And a warning that cuts the other way: a cloud AI service is not your lawyer or accountant. An NDA that lets you
-share with "advisors" rarely covers pasting the other side's secrets into a chatbot. The private parts of this
-audit stay on the user's machine.
+And a warning that cuts the other way: an NDA that lets you share with "advisors" rarely covers pasting the other
+side's secrets into a cloud AI service, and that includes this skill, because Claude reads whatever you point it
+at. So the scripts do the bulk reading on your machine and hand Claude dates, titles and counts, and you decide
+what else it sees (see "What Claude Sees" below).
 
 ## The Tools
 
@@ -69,7 +70,7 @@ when the skill loaded). All five run on Python 3 with no installs. Run them with
 | Tool | What it does | Cost |
 |---|---|---|
 | `scripts/repo_census.py` | Every git repo under the folders given: first and last commit, the user's commit count and dates, remote, README line. CSV out. | Free, local |
-| `scripts/session_prompts.py` | The user's own typed prompts from Claude Code session logs, with timestamps, filtered by project folder and keyword. JSON lines out. **The output holds confidential material.** | Free, local |
+| `scripts/session_prompts.py` | The user's own typed prompts from Claude Code session logs, with timestamps, filtered by project folder and keyword. JSON lines out. `--no-text` keeps only dates, lengths and matched keywords. **Full output holds confidential material.** | Free, local |
 | `scripts/public_feeds.py` | Any RSS or Atom feed (Substack, Ghost, Medium, Paragraph, a personal site), plus an optional full Substack archive pager. Also decodes X and LinkedIn post IDs into dates. | Free, public |
 | `scripts/x_posts.py` | The user's own X posts matching the counterparty's field, through the paid X API. Quotes first; refuses to spend without `--approve-up-to`. | **Paid** |
 | `scripts/preserve_evidence.py` | Copies evidence folders into one dated folder (never deletes, stops if an excluded file slips in), writes a SHA-256 manifest and prints one hash for the lawyer. | Free, local |
@@ -92,6 +93,23 @@ One private folder per counterparty, by default `~/ip-audit/<counterparty-slug>/
 
 If the user wants it somewhere else, fine, with one rule: never inside a git repository that has a remote. Check
 with `git -C <folder> remote -v` before writing.
+
+## What Claude Sees
+
+The scripts run on the user's machine and write only to disk. Anything Claude reads in this conversation goes to
+the AI provider under the user's account terms. Say this once, early, in one plain sentence, then work like this:
+
+- **The user's own work is fine to read:** their repos, posts, talks, and notes about their own ideas.
+- **The other side's confidential material stays closed,** and so does any client's or past employer's: decks,
+  code, documents, recordings. Record that it exists, its date and its owner from the file name, the agreement or
+  the user's description.
+- **Session logs and transcripts mix both.** Run `session_prompts.py --no-text` first: timestamps, length and
+  matched keywords, with no words. Open the full text of a prompt only when the user says it holds only their own
+  material.
+- **When the user wants a full read of mixed material,** suggest a local model, or let the user read the hits and
+  describe them.
+
+At the start of Step 3, ask once which folders hold the other side's or a client's material, and leave them out.
 
 ## How This Works
 
@@ -146,12 +164,14 @@ Anything public before the first hint is the strongest item on the list.
 - `repo_census.py` over the code folders, with the user's name and email patterns (it defaults to
   `git config user.name` and `user.email`).
 - `session_prompts.py` over the AI coding session folders that touch this work, with keywords from the
-  counterparty's field. The user's own words, timestamped, are the best evidence of who said what first.
+  counterparty's field. The user's own words, timestamped, are the best evidence of who said what first. Start
+  with `--no-text`, which dates when each topic first came up without exposing what was said.
 - The notes vault and meeting transcripts: search for the counterparty's name, their field's keywords, and
   the dates around the first disclosure.
 - The agreements themselves, and any email or chat where an idea was first written down.
 
-Write everything into `data/` with dated filenames. Nothing here leaves the machine.
+Write everything into `data/` with dated filenames. The files stay on the machine, and what Claude reads from them
+follows "What Claude Sees".
 
 ### Step 4: Sort Into Four Buckets
 
@@ -265,8 +285,8 @@ Only `x_posts.py` costs money (the X API is pay-per-use). It never spends withou
   so the counterparty's name stays off anything that goes to a third party. Before the user shares a file, grep it
   against their own private list of names (clients, employers, partners) and fix every hit. Full rules in
   `references/privacy-rules.md`.
-- **Local first.** Everything runs on the user's machine. Network calls only for public feeds, public repos and
-  opted-in paid APIs.
+- **Local first.** The scripts run on the user's machine and write only there. Claude reads the user's own work
+  and indexes of everything else. Network calls only for public feeds, public repos and opted-in paid APIs.
 - **Paid calls need approval and a budget, every time.**
 - **Never publish evidence.** Hashes only.
 - **Prefer written evidence to recordings.** Typed notes, commits, emails and journals carry dates without consent

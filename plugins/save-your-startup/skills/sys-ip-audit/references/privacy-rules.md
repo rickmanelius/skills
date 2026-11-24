@@ -8,7 +8,7 @@ causing the breach it's meant to prevent.
 
 | Class | Files | Where it may go |
 |---|---|---|
-| **Private** | `ledger.md`, `data/`, session-prompt extracts, transcripts, the evidence folder | The user's machine and the user's lawyer. A local model may read it. Never a cloud AI service, never a shared drive, never a repo with a remote |
+| **Private** | `ledger.md`, `data/`, session-prompt extracts, transcripts, the evidence folder | The user's machine and the user's lawyer. Never a shared drive or a repo with a remote. Claude builds the ledger from the user's own work, script indexes and the user's descriptions; for anything more, a local model |
 | **Shareable after review** | `schedule.md`, `brief.md` Part A | The counterparty, after a lawyer has read it. A cloud AI may read it for the first-pass review |
 | **The user's** | `brief.md` Parts B and C, `counsel-questions.md`, `self-audit.md` | The user and their lawyer. A cloud AI may read Part C and the questions; Part B and the self-audit stay local unless the user scrubs them |
 
@@ -36,6 +36,9 @@ is also a common English word will match ordinary prose; check those hits by eye
 Most NDAs allow sharing with attorneys, accountants and advisors bound by confidentiality. A cloud AI service is
 none of those unless the NDA says so. So:
 
+- This skill runs in a cloud AI too. The scripts keep the bulk reading local, `session_prompts.py --no-text`
+  keeps session logs to dates and keywords, and the other side's and clients' files stay closed (SKILL.md, "What
+  Claude Sees").
 - The shareable files may go to a cloud AI for the opposing-counsel pass.
 - The ledger and anything holding the counterparty's or a client's confidential information go to a local model
   (Ollama, LM Studio or similar) or nowhere.
