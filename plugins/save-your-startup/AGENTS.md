@@ -34,6 +34,7 @@ All skills use the `sys:` prefix (short for Save Your Startup) to avoid collisio
 | `sys:time-to-wow` | Customer & Market | Shorten the path from trial sign-up to first delight (companion skill, David Skok's framework) |
 | `sys:mou` | Alignment | Two-page partner MOU, refined until the user would send it (companion skill, Michael Girdley's template) |
 | `sys:venice-video` | Customer & Market | Generated video ad or launch video through Venice's API, approved before every dollar (companion skill, WIIFM story method) |
+| `sys:ip-audit` | Alignment | Prior-inventions list (Exhibit A) tailored to one deal, with dated evidence, a chain-of-title brief and counsel questions (companion skill, not legal advice) |
 
 ## Execution Guidelines
 

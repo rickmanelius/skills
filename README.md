@@ -11,7 +11,7 @@ In Claude Code:
 /plugin install save-your-startup
 ```
 
-That's it. Claude Code will fetch the repo and register all 16 skills automatically.
+That's it. Claude Code will fetch the repo and register all 17 skills automatically.
 
 ## Skills
 
@@ -35,8 +35,9 @@ This book stands on the shoulders of giants. You'll see well cited playbooks in 
 | **Time to Wow** *(companion)* | `/sys:time-to-wow` | Shorten the path from trial sign-up to first delight (David Skok's framework) |
 | **MOU** *(companion)* | `/sys:mou` | Write a two-page partner MOU before the lawyers, refined until you would send it ([Michael Girdley's template](https://x.com/girdley/status/1649393986899959813)) |
 | **Venice Video** *(companion)* | `/sys:venice-video` | Make a generated video ad or launch video with Venice's API, with a free quote and your approval before any spend (needs a Venice API key) |
+| **IP Audit** *(companion)* | `/sys:ip-audit` | List your prior inventions before you sign an NDA, offer or advisor agreement, tailored to that deal (not legal advice; gets you to a lawyer prepared) |
 
-Over 50 candidate skills were identified from the book; the 12 above scored highest on universality, power, and AI-transferability. See the [full ranking](context/analysis/00-master-ranking.md) and [file an issue](https://github.com/rickmanelius/skills/issues) if you'd like another one included. The four companion skills are not from the book, but they are in the same spirit, and each one credits its source.
+Over 50 candidate skills were identified from the book; the 12 above scored highest on universality, power, and AI-transferability. See the [full ranking](context/analysis/00-master-ranking.md) and [file an issue](https://github.com/rickmanelius/skills/issues) if you'd like another one included. The five companion skills are not from the book, but they are in the same spirit, and each one credits its source.
 
 ## Quickstart
 

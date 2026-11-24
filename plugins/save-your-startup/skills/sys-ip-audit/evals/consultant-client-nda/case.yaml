@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: consultant-client-nda
+expected_outcome: |
+  An Exhibit or Schedule A tailored to Bluepaw's field (appointment scheduling for veterinary clinics): Priya's open-source slotsmith engine listed specifically and dated, unrelated work grouped, every other client described by field only, and the feedback clause flagged as something to strike or narrow before signing. The overlap with the dental scheduling client is flagged privately. Nothing spent.
