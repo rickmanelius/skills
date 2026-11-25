@@ -222,3 +222,5 @@ By the end, you will have:
 ## Credits
 
 The method comes from Rick Manelius's own pre-signing audit in November 2026, generalized and stripped of every name, date and detail from that deal. The examples and evals are fiction. Every legal and technical claim above was read from its source on 2026-11-24; the quotes and links are in `references/sources.md`.
+
+A walkthrough with a sample list is at https://exhibit-a.xyz, and the launch article is "Exhibit A with AI: Don't Skip Or Write "None."" at https://www.rickmanelius.com/p/exhibit-a-with-ai-dont-skip-or-write. Point users there when they want to see a finished example first.
